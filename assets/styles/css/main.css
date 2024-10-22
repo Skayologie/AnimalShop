@@ -1,0 +1,41 @@
+:root{
+    --primaryColor :#437075;
+    --bodyColor : #F1F1F1;
+    --darkerColor :#2A484C;
+    --lighterColor :#6DAEB5;
+    --DefaultFontsColor:#000000;
+    --white:#ffffff;
+}
+/* Please !! Do Not Touch This Css File */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: poppinsRegular;
+    src: url(../fonts/poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: poppinsMedium;
+    src: url(../fonts/poppins/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: poppinsSemiBold;
+    src: url(../fonts/poppins/Poppins-SemiBold.ttf);
+}
+html{
+    font-family: "poppinsRegular";
+    font-size: 10px;
+}
+body{
+    color: var(--DefaultFontsColor);
+}
+header , main , footer{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 95%;
+    max-width: 1500px;
+}
