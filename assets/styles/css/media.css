@@ -4,19 +4,7 @@
   /*   PLEASE USE COMMENTS FOR EACH COMPONENT OR SECTION YOU'RE CREATE    */
  /*               JUST FOR ORGNIZE THE CODE AND FOCUS                    */
 /************************************************************************/
-/* SECTION NOUVEUX PRODUITS*/
-h1{
-    text-align: center;
-    font-size:2.2rem ;
-    margin-bottom:3 rem ;
-}
-.All-products{
-    border: solide 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-   
-}
+
 /* For Tablette and Petit Ecran */
 @media only screen and (min-width: 768px) {
     .container{
