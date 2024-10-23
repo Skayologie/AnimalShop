@@ -263,8 +263,7 @@ input {
 
 .slideEventImg {
   position: relative;
-
-  height: 100%;
+  height: max-content;
   overflow: hidden;
   width: 100%;
   margin: 20px auto;
@@ -278,17 +277,18 @@ input {
   border-radius: 10px;
 }
 .OneSlide{
+  max-width: 400px;
   width: 80%;
-  aspect-ratio: 2/1;
+  height: 100%;
+  display: flex;
   margin: auto;
-  border: solid black 2px;
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;
   scroll-snap-type: x mandatory;
 }
 .product{
-  
+  scroll-snap-align: center;
 }
 .slideEventImg img:first-of-type {
   z-index: 3;
@@ -308,26 +308,9 @@ input {
 }
 
 .slideEventImg i {
-  position: absolute;
   cursor: pointer;
-  background: #78adc9;
-  opacity: 0.6;
-  transition: 0.4s;
-  color: #fff;
-  padding: 0 10px;
 }
 
-.slideEventImg i:first-of-type {
-  top: 50%;
-  left: 1%;
-}
-.slideEventImg i:last-of-type {
-  top: 50%;
-  right: 1%;
-}
-.slideEventImg i:hover {
-  opacity: 0.9;
-}
 
 /* Modal */
 

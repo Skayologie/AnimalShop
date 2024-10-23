@@ -118,11 +118,7 @@ header{
     font-size: 2rem;
     margin-bottom: 2rem;
 }
-.container p {
-    font-size:1.5rem ;
-    font-weight: 600;
-    margin-bottom: 5rem;
-}
+
 .container .footer-top h3 {
 /*footer top start*/
 width: 30rem;
@@ -223,10 +219,6 @@ width: 15rem;
 }
 
 /* SECTION NOUVEUX PRODUITS*/
-.products{
-   width: 48rem;
-   height: 49rem;
-}
 h1{
    
    padding: 5px;
@@ -247,15 +239,14 @@ h1{
 .product{
    background: var( --white);
    padding: 2rem;
-   width: max-content;
    display: flex;
    flex-direction: column;
    border-radius:1rem;
    border:1px solid rgba(67, 112, 117, 1);
    margin: 2rem;
-   flex: 1 1 calc(100% - 20px);
    transform: all 0.3s;
-
+   position: relative;
+   min-width: 245px;
 }
  
 
@@ -264,13 +255,18 @@ h1{
 
 }
 .product i {
+   position: absolute;
    display: flex;
-   justify-content: end;
+   justify-content: start;
    font-size: 2rem;
    color: rgb(255, 255, 255);
+   z-index: 2;
+   right: 0;
+   top: 0;
+   padding: 20px;
+   color: red;
 }
 .product-img{
-   width: 200px;
    height: 19.6rem;
    top: 2rem;
    padding-bottom: 5px;
@@ -287,24 +283,23 @@ h1{
 }
 .product-title{
    margin-bottom: 10px;
-   padding: 1rem 1re ;
-   font-size: 1.2rem;
+   font-size: 1.6rem;
    line-height: 2.25rem;
+   overflow: hidden;
 }
 .prix-butt {
    display: flex;
    justify-content: space-between;
-   align-items: center;
 
 }
 .product-button{
    font-size: 11px;
    border-radius: none;
+   text-align: center;
 }
 .product-button:hover{
    box-shadow: 0 2px 10px rgba(0, 0, 0, 1);
 }
-   
 
 .product-price{
    position: relative;
@@ -331,7 +326,6 @@ color: rgba(67, 112, 117, 1);
 
 }
 
-}
 
 .dogs .continer .content .image-pransipal h2 {
     position: relative;
