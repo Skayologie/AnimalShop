@@ -12,6 +12,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    outline: none;
 }
 @font-face {
     font-family: poppinsRegular;
@@ -31,6 +32,7 @@ html{
 }
 body{
     color: var(--DefaultFontsColor);
+    background-color: var(--bodyColor);
 }
 header , main , footer{
     display: flex;

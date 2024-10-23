@@ -1,5 +1,6 @@
 @import url("../css/main.css");
 @import url("../css/media.css");
+@import url("../css/anime.css");
 
    /************************************************************************/
   /*   PLEASE USE COMMENTS FOR EACH COMPONENT OR SECTION YOU'RE CREATE    */
@@ -8,6 +9,7 @@
 
 
 /* Header Style */
+<<<<<<< HEAD
 @media (max-width:750px){
    * {
        margin : 0rem ;
@@ -60,7 +62,104 @@
    header .continer .menu img {
    margin-right : 30px;
    }
+=======
+header{
+   background-color: var(--bodyColor);
+}
+.iconsHeader{
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+   align-items: center;
+}
+.iconsHeader img:nth-child(1){
+   width: 23px;
+}
+.rightIcons{
+   padding-inline: 20px;
+   position: relative;
+}
+>>>>>>> myTask
 
+@media only screen and (min-width: 768px) {
+   .container{
+       width: 80%;
+   }
+   .navbar{
+      display: flex;
+      justify-content: center;
+   }
+   .navbar li {
+      /* padding: 15px; */
+      display: flex;
+      justify-content: start;
+      width:100%;
+   }
+   .navbar li {
+      padding-left: 0px;
+    }
+   .nav{
+      display: flex;
+      align-items: center;
+   }
+   .Conaa {
+      width: 80%;
+      gap: 50px;
+      display: flex;
+      flex-direction: column;
+  }
+   
+  .navbar li a {
+   font-size: 1.8rem;
+   padding-left: 0px;
+
+ }
+}
+@media only screen and (min-width:1050px) {
+   .Conaa {
+      width: 100%;
+      height: 100%;
+      align-items: center;
+      flex-direction: row;
+      gap: 0px;
+  }
+  .Conaa li{
+   padding-inline: 25px;
+      font-size: 3rem;
+      width: auto;
+  }
+  .Conaa li a{
+      font-size: 1.4rem;
+  }
+  .nav{
+   height: 100%;
+  }
+  .iconsHeader{
+   height: 100%;
+  }
+}
+
+/* The Dot Design */
+.cart{
+   display: inline;
+   position: relative;
+   height: fit-content;
+}
+.cart::after{
+   content: "2";
+   width: 16px;
+   height: 16px;
+   position: absolute;
+   top: 0;
+   right: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   z-index: 10;
+   background-color: red;
+   color: white;
+   border-radius: 50%;
+}
 
 
 /* Footer Style */
