@@ -14,6 +14,30 @@
       referrerpolicy="no-referrer" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <title>Animal Shop</title>
+    <style>
+        body{
+            background-color: red;
+        }
+        .slideEventImg{
+            background-color: blue;
+            height: 250px;
+            width: 100%;
+            display: flex;
+            
+        }
+        .slideEventImg img{
+            width: 100%;
+        }
+        .card{
+            height: 100%;
+            background-color: rgb(34, 123, 148);
+        }
+        .OneSlide{
+            background-color: aqua;
+            width: 100%;
+            display: flex;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -56,73 +80,37 @@
             <div class="mainContent">
                 <!-- Work Place Of The Main Part-->
                 <!--section cards-->
-    <section class="products">
-        <h1>Nouveaux Produits</h1>
-        <div class="All-products">
-       
-            <div class="product">
-                <i class="fa-regular fa-heart"></i>
-                <img class="product-img" src="./assets/images/ProductBeta.svg">
-                <div class="product-info">
-                    <h4 class="product-title">Puppy Pee - Tapis de choose</h4>
-                    <div class="prix-butt">
-                        <p  class="product-price">20$ </p>
-                        <a class="product-button">Buy Now</a></div>
+                <!-- <section class="products">
+                    <h1>Nouveaux Produits</h1>
+                    <div class="All-products">
+                
+                        <div class="product">
+                            <i class="fa-regular fa-heart"></i>
+                            <img class="product-img" src="./assets/images/ProductBeta.svg">
+                            <div class="product-info">
+                                <h4 class="product-title">Puppy Pee - Tapis de choose</h4>
+                                <div class="prix-butt">
+                                    <p  class="product-price">20$ </p>
+                                    <a class="product-button">Buy Now</a></div>
+                                    
+                            </div>
+                        </div>
                         
-                </div>
-        </div>
-            <div class="product">
-                <i class="fa-regular fa-heart"></i>
-                <img class="product-img" src="./assets/images/ProductBeta.svg">
-                <div class="product-info">
-                    <h4 class="product-title">Puppy Pee - Tapis de choose</h4>
-                    <div class="prix-butt">
-                        <p  class="product-price">20$ </p>
-                        <a class="product-button">Buy Now</a>
+                
                     </div>
-                        
-                </div>
-        </div>
-            <div class="product">
-                <i class="fa-regular fa-heart"></i>
-                <img class="product-img" src="./assets/images/ProductBeta.svg">
-                <div class="product-info">
-                    <h4 class="product-title">Puppy Pee - Tapis de choose</h4>
-                    <div class="prix-butt">
-                        <p  class="product-price">20$ </p>
-                       <a class="product-button">Buy Now</a>
+                </section> -->
+                <div class="slideEventImg">
+                    <div class="OneSlide">
+                        <div class="activeImg card">dd</div>
+                        <div class="card">dssd</div>
+                        <div class="card">dd</div>
                     </div>
-                        
-                </div>
-        </div>
-            <div class="product">
-                <i class="fa-regular fa-heart"></i>
-                <img class="product-img" src="./assets/images/ProductBeta.svg">
-                <div class="product-info">
-                    <h4 class="product-title">Puppy Pee - Tapis de choose</h4>
-                    <div class="prix-butt">
-                        <p  class="product-price">20$ </p>
-                        <a class="product-button">Buy Now</a>
+                    <div class="indicators">
+                      <i class="fa fa-angle-left fa-3x text-"></i>
+                      <i class="fa fa-angle-right fa-3x"></i>
                     </div>
-                        
-                </div>
-        </div>
-            <div class="product">
-                <i class="fa-regular fa-heart"></i>
-                <img class="product-img" src="./assets/images/ProductBeta.svg">
-                <div class="product-info">
-                    <h4 class="product-title">Puppy Pee - Tapis de choose</h4>
-                    <div class="prix-butt">
-                        <p  class="product-price">20$ </p>
-                       <a class="product-button">Buy Now</a> 
-                    </div>
-                        
-                </div>
-        </div>
-       
-    </div>
-    </section>
-    
+                  </div>
+                  <!-- slideEventImg -->
             </div>
         </div>
     </main>
@@ -141,9 +129,9 @@
                     <p class="tele">05 37 73 67 82</p>
                     <h5>Suivez nous</h5>
                     <div class="media">
-                        <img src=./assets/icons/social media/facebook.svg" alt="#">
-                        <img class="inta" src=./assets/icons/social media/instagram.svg" alt="#">
-                        <img src=./assets/icons/social media/youtube.svg" alt="#">
+                        <img src="./assets/icons/social media/facebook.svg" alt="#">
+                        <img class="inta" src="./assets/icons/social media/instagram.svg" alt="#">
+                        <img src="./assets/icons/social media/youtube.svg" alt="#">
                     </div>
                 </div>
                 <div class="footer-right">
