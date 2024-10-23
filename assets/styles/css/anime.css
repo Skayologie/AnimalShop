@@ -245,6 +245,7 @@ input {
     transform: translate(0%) !important;
     position: absolute;
     left: 0;
+    background-color: var(--bodyColor);
   }
 
   /* SEARCH DISABLED ON MOBILE */
