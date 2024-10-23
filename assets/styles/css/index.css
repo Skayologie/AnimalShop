@@ -109,11 +109,11 @@ header{
 
 /* Footer Style */
    /*===================== header styling end ====================*/
-   .test {
-    height: 50rem;
-}
+   /* .test {
+    height: 50rem; 
+}*/
 /*===================== footer styling start ====================*/
-.container h2 {
+footer .container h2 {
     text-align: center;
     font-size: 2rem;
     margin-bottom: 2rem;
@@ -217,23 +217,25 @@ width: 15rem;
 /* Home Page */
 /*category page start*/
 /*dogs*/
-.dogs .continer .content .image-pransipal img {
-    width: 100%;
-    margin-top: 3rem;
-}
 
+.dogs .continer .content .image-pransipal {
+    height:180px;
+    width: 100%;
+}
+.dogs .continer .content .image-pransipal img {
+    height:100%;
+    width: 100%;
+    object-fit: cover;
+}
+.dogs .content{
+    margin-top: 25px;
+}
 /* SECTION NOUVEUX PRODUITS*/
 .products{
    width: 48rem;
    height: 49rem;
 }
-h1{
-   
-   padding: 5px;
-   text-align: center;
-   font-size:2.2rem ;
-   margin-bottom:3 rem ;
-}
+
 .All-products{
    overflow: scroll;
    width: 100%;
@@ -331,14 +333,23 @@ color: rgba(67, 112, 117, 1);
 
 }
 
-}
-
-.dogs .continer .content .image-pransipal h2 {
+/*dogs*/
+.dogs .continer .content .image-pransipal {
+    width: 100%;
     position: relative;
-    bottom: 12rem;
-    left: 18rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+    max-height: 150px;
+}
+.dogs .continer .content .image-pransipal h2 {
     color: white;
     font-size: 5rem;
+    position: absolute;
+}
+.dogs .continer .content .image-pransipal img {
+    width: 100%;
 }
 .dogs .continer .content .nav-bar {
     display: flex;
@@ -346,21 +357,30 @@ color: rgba(67, 112, 117, 1);
 }
 .dogs .continer .content .nav-bar .menu {
     display: flex;
+    margin-left: 2rem ;
+    
+}
+.dogs .continer .content .nav-bar .menu button img {
+    width: 1.5rem;
+}
+.dogs .continer .content .nav-bar .menu button {
+    border: none;
+    
 }
 .dogs .continer .content .nav-bar .menu p {
-    font-size: 1.8rem;
-    font-weight: 600;
-    position: relative;
-    top: 1.2rem;
-    left: 0.8rem;
-}
-.dogs .continer .content .nav-bar .paragraph-left p {
     font-size: 1.3rem;
     font-weight: 600;
     position: relative;
-    top: 1.2rem;
+    top: 0.40rem;
     left: 0.8rem;
 }
+
+.dogs .continer .content .nav-bar .paragraph-l p {
+    font-size: 1.2rem;
+    font-weight: 900;
+    margin-right: 2rem ;
+}
+
 .dogs .continer .content .cart-dogs .dogs-cart-a {
     width: 20rem;
     height: 25rem;
@@ -373,6 +393,12 @@ color: rgba(67, 112, 117, 1);
     background: green;
     margin-bottom: 2rem;
 }
+/* .dogs .continer .content .nav-bar .sid-bar {
+    background: yellow;
+    width: 20rem;
+    height: 25rem;
+    margin-bottom: 2rem;
+} */
 .dogs .continer .content .cart-dogs .dogs-cart-c {
     width: 20rem;
     height: 25rem;
@@ -418,6 +444,7 @@ color: rgba(67, 112, 117, 1);
     margin-left: 0.5rem; ;
     border-radius: 3rem;
     font-weight: 800;
+   
 }
 .sercle-scrole .one {
     background: #437075;
