@@ -9,60 +9,6 @@
 
 
 /* Header Style */
-<<<<<<< HEAD
-@media (max-width:750px){
-   * {
-       margin : 0rem ;
-       padding : 0rem;
-       box-sizing: border-box;
-       font-family: sans-serif;
-   }
-   /*================ header styling start=======================*/
-   body {
-       padding : 2em ;
-   }
-   html{font-size: 10px;}
-   .menu button {
-       width :2rem;
-       border:none;
-       position: relative;
-       top:1rem ;
-       background: #fff;
-   }
-   .logo img {
-       width: 7em;
-       position: relative;
-       top:1rem
-   }
-   .menu button img {
-    width : 2rem;
-    
-}
-   .heder-rop-right {
-       display: flex;
-   }
-   .heder-rop-right .search{
-       margin-right : 1rem;
-   }
-   .heder-rop-right .search img {
-       width: 2rem;
-       margin-right: 0.50rem;
-   }
-   .heder-rop-right div img {
-       width: 2rem;
-       position: relative;
-       top:1rem
-   }
-   header .headerContent .continer {
-       display: flex;
-       justify-content :space-between;
-   
-   }
-
-   header .continer .menu img {
-   margin-right : 30px;
-   }
-=======
 header{
    background-color: var(--bodyColor);
 }
@@ -79,7 +25,6 @@ header{
    padding-inline: 20px;
    position: relative;
 }
->>>>>>> myTask
 
 @media only screen and (min-width: 768px) {
    .container{
@@ -229,7 +174,6 @@ font-weight: 600;
 .footer-center .footer-left .tele {
 margin-bottom: 4rem;
 }
-}
 .footer-center .footer-left h5 {
 font-size: 1.3rem;
 margin-bottom : 1rem 
@@ -278,7 +222,6 @@ width: 15rem;
     margin-top: 3rem;
 }
 
-<<<<<<< HEAD
 /* SECTION NOUVEUX PRODUITS*/
 .products{
    width: 48rem;
@@ -324,7 +267,7 @@ h1{
    display: flex;
    justify-content: end;
    font-size: 2rem;
-   color: red;
+   color: rgb(255, 255, 255);
 }
 .product-img{
    width: 200px;
@@ -388,7 +331,6 @@ color: rgba(67, 112, 117, 1);
 
 }
 
-=======
 .dogs .continer .content .image-pransipal h2 {
     position: relative;
     bottom: 12rem;
@@ -453,7 +395,6 @@ color: rgba(67, 112, 117, 1);
     background: green;
     margin-bottom: 2rem;
 }
->>>>>>> fa9fc1b5b9ffd891c8c2fb77d6d8965c6a7c45f1
 
 .dogs .continer .content .cart-dogs {
     margin-top:30px ;

@@ -92,6 +92,7 @@
 .no-search {
   transform: translate(0);
   transition: transform 0.7s ease-in-out;
+  background-color: var(--bodyColor);
 }
 
 .search-input {
