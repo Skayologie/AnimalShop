@@ -29,7 +29,7 @@
 /* For Large Screen */
 @media only screen and (min-width: 1279px ) {
     .container{
-        width: 80%;
+        width: 90%;
         background-color: rgb(43, 255, 0);
     }
     
