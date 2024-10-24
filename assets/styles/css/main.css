@@ -5,12 +5,14 @@
     --lighterColor :#6DAEB5;
     --DefaultFontsColor:#000000;
     --white:#ffffff;
+    --WhiteCase :#D9D9D9;
 }
 /* Please !! Do Not Touch This Css File */
 *{
     
     margin: 0px;
     padding: 0px;
+    font-family: "poppinsRegular";
     box-sizing: border-box;
     outline: none;
 }
