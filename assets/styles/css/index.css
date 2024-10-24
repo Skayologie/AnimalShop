@@ -573,8 +573,7 @@ color: rgba(67, 112, 117, 1);
    align-items: center;
    gap:5px;
 }
-.PanierTicket .Price p{
-}
+
 .PanierTicket .Price p:nth-child(1){
    font-size: large;
    color: green;
