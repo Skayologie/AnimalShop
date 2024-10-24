@@ -746,6 +746,46 @@ footer .container  {
 
 
 
+/* Page Title */
+.PageTitle {
+   font-size: 3rem;
+   margin-block: 3rem;
+   text-align: center;
+}
 
+/* ***************** */
+
+
+/* Form Style */
+form{
+   display: flex;
+   justify-content: center;
+}
+.form-container {
+   /* background-color: red; */
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   max-width: 500px;
+}
+form input{
+   margin-bottom: 20px;
+   font-size: 1.5rem;
+   padding-block:16px;
+   border-radius: 10px;
+   padding-left: 10px;
+   background-color: #437075;
+   color: white;
+
+}
+form input:not([type="button"]){
+   padding-left: 20px;   
+   background-color: #CECECE;
+   color: black;
+}
+
+form label{
+   font-size: 1.5rem;
+}
 
 

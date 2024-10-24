@@ -6,10 +6,7 @@ body {
 }
 
 /* Container Styles */
-.container {
-    text-align: center;
-    margin-top: 50px;
-}
+
 
 /* Title Styles */
 .container .title h1 {
@@ -23,13 +20,6 @@ body {
     color: transparent; 
 }
 
-/* Paragraph Styles */
-.container p {
-    margin-top: 4px;
-    font-size: 16px;
-    font-weight: bold; 
-    color: #1E1E1E;
-}
 
 /* Form Container Styles */
 .form-container fieldset {
@@ -45,16 +35,7 @@ body {
 input[type="text"], 
 input[type="password"], 
 input[type="tel"] { /* Includes password and telephone fields */
-    width: 38.5rem;
-    height: 2.7rem;
-    padding: 10px;
-    background-color: #CECECE;
-    color: rgba(30, 30, 30, 0.5); 
     border: none;
-    border-radius: 7px;
-    font-size: 16px;
-    margin: 0 auto;
-    display: block; 
 }
 
 /* Placeholder Styles */
@@ -69,7 +50,6 @@ button[type="submit"] { /* Standard Submit Button */
     color: white;
     padding: 10px 20px;
     border: none;
-    border-radius: 7px;
     cursor: pointer;
     width: 30.8rem; 
     margin: 0 auto;
