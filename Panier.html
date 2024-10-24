@@ -3,21 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./assets/styles/css/index.css">
+    <script src="./assets/scripts/jquery.min.js"></script>
+    <script src="./assets/scripts/parsley.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>Animal Shop</title>
 </head>
 <body>
     <header>
         <div class="container">
             <div class="headerContent">
                 <!-- Work Place Of The Header Bar-->
-                    <div class="continer">
-                        <div class="menu"><button class="button-menu"><img src="./assets/icons/HeaderIcons/menu.svg" alt="#"></button></div>
-                        <div class="logo"><img src="./assets/images/logo.svg" alt="#"></div>
-                        <div class="heder-rop-right">
-                            <div class="search"><img src="./assets/icons/HeaderIcons/search.svg" alt="#"></div>
-                            <div classe="cart"><img src="./assets/icons/HeaderIcons/cart.svg" alt="#"></div>
+                <div class="page-wrapper">
+                    <div class="nav-wrapper">
+                      <div class="grad-bar"></div>
+                      <nav class="navbar">
+                        <div class="iconsHeader">
+                            <img src="./assets/icons/HeaderIcons/menu.svg" alt="Company Logo"  class="menu-toggle" id="mobile-menu" />
+                            <img src="./assets/images/logo.svg" alt="Logo" />
+                            <ul class="nav no-search">
+                               <div class="Conaa">
+                                    <li class="nav-item"><a href="#">Chiens</a></li>
+                                    <li class="nav-item"><a href="#">Chats</a></li>
+                                    <li class="nav-item"><a href="#">Aquariophilie</a></li>
+                                    <li class="nav-item"><a href="#">Reptiles</a></li>
+                                    <li class="nav-item"><a href="#">Nos Services</a></li>
+                               </div>
+                              
+                            </ul>
+                            <div class="rightIcons">
+                                <img src="./assets/icons/HeaderIcons/search.svg" alt="">
+                                <div class="cart">
+                                    <img src="./assets/icons/HeaderIcons/cart.svg" alt="">
+
+                                </div>
+                            </div>
                         </div>
-                 </div>
+                      </nav>
+                    </div>
+                </div>
             </div>
         </div>
     </header>
@@ -25,7 +55,112 @@
         <div class="container">
             <div class="mainContent">
                 <!-- Work Place Of The Main Part-->
-                
+                <h4>Mon Panier</h4>
+                <div class="PanierTicket">
+                    <div class="TicketContent">
+                        <div class="Details">
+                            <div class="productItemTicket">
+                                <div class="coverItemProduct">
+                                    <img src="./assets/images/ProductBeta.svg" alt="">
+                                </div>
+                                <div class="Information">
+                                    <p>Puppy Pee - Tapis de choose</p>
+                                    <div class="Price">
+                                        <p>20$</p>
+                                        <p>x3</p>
+                                    </div>
+                                </div>
+                                <div class="Operation">
+                                    <i class="fa-solid fa-pen-to-square"></i>
+                                    <i class="fa-solid fa-trash"></i>
+                                </div>
+                            </div>
+                            <div class="productItemTicket">
+                                <div class="coverItemProduct">
+                                    <img src="./assets/images/ProductBeta.svg" alt="">
+                                </div>
+                                <div class="Information">
+                                    <p>Puppy Pee - Tapis de choose</p>
+                                    <div class="Price">
+                                        <p>20$</p>
+                                        <p>x3</p>
+
+                                    </div>
+                                
+                                </div>
+                                <div class="Operation">
+                                    <i class="fa-solid fa-pen-to-square"></i>
+                                    <i class="fa-solid fa-trash"></i>
+                                </div>
+                            </div>
+                            <div class="productItemTicket">
+                                <div class="coverItemProduct">
+                                    <img src="./assets/images/ProductBeta.svg" alt="">
+                                </div>
+                                <div class="Information">
+                                    <p>Puppy Pee - Tapis de choose</p>
+                                    <div class="Price">
+                                        <p>20$</p>
+                                        <p>x3</p>
+
+                                    </div>
+                                
+                                </div>
+                                <div class="Operation">
+                                    <i class="fa-solid fa-pen-to-square"></i>
+                                    <i class="fa-solid fa-trash"></i>
+                                </div>
+                            </div>
+                            <div class="productItemTicket">
+                                <div class="coverItemProduct">
+                                    <img src="./assets/images/ProductBeta.svg" alt="">
+                                </div>
+                                <div class="Information">
+                                    <p>Puppy Pee - Tapis de choose</p>
+                                    <div class="Price">
+                                        <p>20$</p>
+                                        <p>x3</p>
+
+                                    </div>
+                                
+                                </div>
+                                <div class="Operation">
+                                    <i class="fa-solid fa-pen-to-square"></i>
+                                    <i class="fa-solid fa-trash"></i>
+                                </div>
+                            </div>
+                            <div class="productItemTicket">
+                                <div class="coverItemProduct">
+                                    <img src="./assets/images/ProductBeta.svg" alt="">
+                                </div>
+                                <div class="Information">
+                                    <p>Puppy Pee - Tapis de choose</p>
+                                    <div class="Price">
+                                        <p>20$</p>
+                                        <p>x3</p>
+
+                                    </div>
+                                
+                                </div>
+                                <div class="Operation">
+                                    <i class="fa-solid fa-pen-to-square"></i>
+                                    <i class="fa-solid fa-trash"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="TheGapTicket">
+                            
+                        </div>
+                        <div class="MantantTotal">
+                            <p>Montant total à payer</p>
+                            <p>40222$</p>
+                        </div>
+                    </div>
+                    <div class="Buttons">
+                        <input type="submit" value="Annuler">
+                        <input type="submit" value="Continuer">
+                    </div>
+                </div>
             </div>
         </div>
     </main>

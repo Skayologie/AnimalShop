@@ -119,14 +119,23 @@ header{
     font-size: 2rem;
     margin-bottom: 2rem;
 }
+<<<<<<< HEAD
+=======
+.container p {
+    font-size:1.5rem ;
+    font-weight: 600;
+}
+footer{
+   margin-top: 100px;
+}
+>>>>>>> myTask
 
 .container .footer-top h3 {
 /*footer top start*/
-width: 30rem;
-font-family: sans-serif;
-font-size : 1.5rem ;
+font-size : 2rem ;
 font-weight: 800;
 margin: auto;
+text-align: center;
 }
 .container .footer-top input,button {
 display: block;
@@ -134,18 +143,25 @@ height: 3rem;
 border-radius: 0.5rem;
 }
 .container .footer-top input {
-margin-top : 2rem ;
-padding : 1rem;
 border:none;
 width: 100%;
-background: #D9D9D9
-
-}
+height: 60px;
+background: var(--WhiteCase);
+padding-left: 20px;
+margin-top: 25px;
+font-weight: 600;
+font-size: 1.5rem;
+ }
 .container .footer-top button {
-width : 5rem;
-margin-top : 2rem ;
 background: #437075;
 color: white;
+padding-inline: 50px;
+padding-block: 25px;
+display: flex;
+align-items: center;
+margin-top: 18px;
+font-size: 1.5rem;
+font-weight: 600;
 }
 
 
@@ -160,7 +176,6 @@ margin-bottom: 5rem;
 }
 .footer-center .footer-left h4 {
 font-size : 1.3rem ;
-font-family :sans-serif;
 margin-bottom : 0.60rem ;
 }
 .footer-center .footer-left p {
@@ -186,7 +201,6 @@ margin: 0rem 0.3rem ;
 /*right*/
 .footer-right h4 {
 font-size : 1.3rem ;
-font-family :sans-serif;
 margin-bottom : 0.60rem ;
 }
 .footer-right p{
@@ -481,3 +495,183 @@ color: rgba(67, 112, 117, 1);
     color: white;
 }
 /*home page end*/
+
+
+
+
+.PanierTicket{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   overflow: hidden;
+}
+
+
+.PanierTicket .productItemTicket{
+   display: flex;
+   padding: 10px;
+   /* background-color: red; */
+   background-color: var(--bodyColor);
+   border-radius: 10px;
+   transition: .5s;
+   gap: 10px;
+}
+
+.PanierTicket .TicketContent{
+   max-width: 500px;
+   background-color: var(--primaryColor);
+   background:linear-gradient(to left bottom , #6DAEB5 , #477E84);
+   border-radius: 14px;
+}
+
+
+.PanierTicket .productItemTicket .coverItemProduct{
+   display: flex;
+   height:100px;
+}
+.coverItemProduct::after{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   content: "3";
+   height: 20px;
+   width: 20px;
+   background-color: var(--primaryColor);
+   border-radius: 50%;
+   transform: translateX(-60%);
+   color: white;
+}
+.PanierTicket .Information {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   /* background-color: blue; */
+   width: 100%;
+}
+.PanierTicket .Price{
+   display: flex;
+   height: fit-content;
+   align-items: center;
+   gap:5px;
+}
+.PanierTicket .Price p{
+}
+.PanierTicket .Price p:nth-child(1){
+   font-size: large;
+   color: green;
+
+}
+.PanierTicket .Price p:nth-child(2){
+   color: rgb(152, 152, 152);
+   
+}
+
+
+.PanierTicket .Details{
+   border-radius: 10px;
+   /* background-color: aqua; */
+   max-height: 480px;
+   overflow: scroll;
+   gap: 10px;
+   flex-direction: column;
+   display: flex;
+   margin: 10px;
+
+}
+
+.PanierTicket .Operation{
+   /* background-color: rgb(0, 81, 255); */
+   display: flex;
+   align-items: center;
+   gap: 15px;
+   margin-left: 10px;
+   margin-right: 15px;
+}
+
+.PanierTicket .Operation i{
+   font-size: 2rem;
+   color: var(--primaryColor);
+}
+.TheGapTicket{
+   height: 50px;
+   width: 100%;
+   position: relative;
+}
+.TheGapTicket::after{
+   content: " ";
+   background-color: var(--bodyColor);
+   height: 100%;
+   width: 50px;
+   position: absolute;
+   right: 0;
+   transform: translateX(50%);
+   border-radius: 50%;
+   z-index: 3;
+   
+}
+.TheGapTicket::before{
+   content: " ";
+   background-color: var(--bodyColor);
+   height: 100%;
+   width: 50px;
+   position: absolute;
+   left: 0;
+   border-radius: 50%;
+   transform: translateX(-50%);
+    z-index: 3;
+}
+.MantantTotal{
+   display: flex;
+   justify-content: space-between;
+   padding: 30px;
+   border-top:2px dashed rgba(255, 255, 255, 0.61);
+   position: relative;
+   padding-top: 50px;
+   padding-bottom: 10px;
+   top: -25px;
+}
+.MantantTotal p{
+   font-size: 2rem;
+   color: white;
+}
+.Buttons {
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   margin-top: 20px;
+   max-width: 470px;
+}
+.Buttons input{
+   width: 48%;
+   height: 50px;
+   background-color: red;
+   border-radius: 8px;
+   border: none;
+   font-size: large;
+}
+.Buttons input:nth-child(1){
+   background-color: white;
+   border: 1px solid var(--primaryColor);
+   color: var(--primaryColor);
+}
+.Buttons input:nth-child(2){
+   background-color: var(--primaryColor);
+   color: white;
+}
+.mainContent h4{
+   font-size: 3rem;
+   margin-block: 30px;
+   text-align: center;
+   color: #437075;
+}
+
+
+
+
+.productItemTicket:hover{
+   transform: scale(0.95);
+   transition: .5s;
+}
+
+
+
