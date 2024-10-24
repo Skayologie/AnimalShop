@@ -83,6 +83,7 @@ header{
   .iconsHeader{
    height: 100%;
   }
+
 }
 
 /* The Dot Design */
@@ -466,7 +467,6 @@ color: rgba(67, 112, 117, 1);
 .dogs .continer .content .AllCards .ItemCard .product{
    margin: 0;
    width: 100% !important;
-   height:100%;
    min-width: 100px;
 }
 .dogs .continer .content .AllCards .ItemCard .product .product-img {
@@ -688,3 +688,21 @@ color: rgba(67, 112, 117, 1);
 
 
 
+.FilterCategory{
+   background-color: red;
+   height: 500px;
+   width: 50%;
+   margin-top: 50px;
+   border-radius: 20px;
+   max-width: 350px;
+}
+.FilterAndProduct{
+   /* background-color: #437075; */
+   display: flex;
+   gap:20px;
+}  
+@media only screen and (max-width:1050px) {
+   .FilterCategory{
+      display: none;
+     }
+}
