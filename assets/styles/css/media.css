@@ -5,12 +5,10 @@
  /*               JUST FOR ORGNIZE THE CODE AND FOCUS                    */
 /************************************************************************/
 
+
 /* For Tablette and Petit Ecran */
-@media only screen and (min-width: 768px) {
-    .container{
-        width: 80%;
-    }
-}
+
+
 
 
 
@@ -32,8 +30,8 @@
 /* For Large Screen */
 @media only screen and (min-width: 1279px ) {
     .container{
-        width: 80%;
-        background-color: rgb(43, 255, 0);
+        width: 90%;
+        /* background-color: rgb(43, 255, 0); */
     }
     
 }
