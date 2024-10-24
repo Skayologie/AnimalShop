@@ -30,8 +30,8 @@
 /* For Large Screen */
 @media only screen and (min-width: 1279px ) {
     .container{
-        width: 80%;
-        background-color: rgb(43, 255, 0);
+        width: 90%;
+        /* background-color: rgb(43, 255, 0); */
     }
     
 }
@@ -62,15 +62,15 @@
     height: 4rem !important;
  }
     .container .footer-top button {
-        width : 50% !important;
-        height: 4rem !important;
+       padding-left:8rem!important;
+       padding-right:8rem!important;
 
  }
  .footer-center .footer-left h4 {
     font-size : 2rem !important;
 }
 .footer-center .footer-left p {
-    font-size: 1rem !important ;
+    font-size: 1.2rem !important ;
  }
  .footer-center .footer-left h5 {
     font-size: 1.5rem !important;
@@ -80,7 +80,7 @@
     font-size : 2rem !important;
  }
 .footer-right p{
-    font-size: 1rem !important ;
+    font-size: 1.2rem !important ;
 }
 
 }
@@ -96,14 +96,13 @@
         width: 100% !important;
     }
     .container .footer-top button {
-        width : 30% !important;
+       padding-left: 5rem !important;
+       padding-right: 5rem !important;
         margin-bottom: 10rem !important;
-
- }
+   }
  .container .footer-top input {
     width: 60% !important;
-    }
-    
+  }
     .footer-center {
         display: flex !important;
         justify-content: space-between;
@@ -112,7 +111,7 @@
         display: flex;
     }
     .footer-center .footer-left .contact-us {
-        margin-right: 20rem;
+        margin-right: 26rem;
     }
 }
 /* Abdelouafi Media Desktop end */
