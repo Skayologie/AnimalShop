@@ -277,7 +277,7 @@ input {
   border-radius: 10px;
 }
 .OneSlide{
-  max-width: 400px;
+  max-width: 590px;
   width: 80%;
   height: 100%;
   display: flex;
@@ -286,6 +286,7 @@ input {
   overflow-y: hidden;
   white-space: nowrap;
   scroll-snap-type: x mandatory;
+  
 }
 .product{
   scroll-snap-align: center;

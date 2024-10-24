@@ -294,7 +294,6 @@ width: 15rem;
    margin-bottom:3 rem ;
 }
 .All-products{
-   overflow: scroll;
    width: 100%;
    display: flex;
    justify-content: space-between;
