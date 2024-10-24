@@ -111,11 +111,10 @@ header{
 
 /* Footer Style */
    /*===================== header styling end ====================*/
-   .test {
-    height: 50rem;
-}
+   /* .test {
+    height: 50rem; 
+}*/
 /*===================== footer styling start ====================*/
-
 .container p {
     font-size:1.5rem ;
     font-weight: 600;
@@ -173,7 +172,7 @@ font-size : 1.3rem ;
 margin-bottom : 0.60rem ;
 }
 .footer-center .footer-left p {
-font-size: 0.88rem;
+font-size: 1rem;
 margin: 0.3rem;
 font-weight: 600;
 }
@@ -183,6 +182,12 @@ margin-bottom: 4rem;
 .footer-center .footer-left h5 {
 font-size: 1.3rem;
 margin-bottom : 1rem 
+}
+.footer-center .footer-right p {
+    font-size: 1rem;
+    margin: 0.3rem;
+    font-weight: 600;
+    
 }
 .footer-center .footer-left .media  img {
 width: 2rem;
@@ -282,6 +287,18 @@ width: 15rem;
 }
 /* FIN HOME PAGE TOP*/
 
+.dogs .continer .content .image-pransipal {
+    height:180px;
+    width: 100%;
+}
+.dogs .continer .content .image-pransipal img {
+    height:100%;
+    width: 100%;
+    object-fit: cover;
+}
+.dogs .content{
+    margin-top: 25px;
+}
 /* SECTION NOUVEUX PRODUITS*/
 .products{
    width: 100%;
@@ -433,6 +450,15 @@ color: rgba(67, 112, 117, 1);
 }
 .dogs .continer .content .nav-bar .menu {
     display: flex;
+    margin-left: 2rem ;
+    
+}
+.dogs .continer .content .nav-bar .menu button img {
+    width: 1.5rem;
+}
+.dogs .continer .content .nav-bar .menu button {
+    border: none;
+    
 }
 .dogs .continer .content .nav-bar .menu p {
     font-size: 1.8rem;
@@ -444,7 +470,7 @@ color: rgba(67, 112, 117, 1);
     font-size: 1.3rem;
     font-weight: 600;
     position: relative;
-    top: 1.2rem;
+    top: 0.40rem;
     left: 0.8rem;
 }
 
@@ -572,8 +598,8 @@ color: rgba(67, 112, 117, 1);
    align-items: center;
    gap:5px;
 }
-.PanierTicket .Price p{
-}
+/* .PanierTicket .Price p{
+} */
 .PanierTicket .Price p:nth-child(1){
    font-size: large;
    color: green;
@@ -705,3 +731,21 @@ color: rgba(67, 112, 117, 1);
       display: none;
      }
 }
+/*footer continer contunu*/
+footer .container h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+
+}
+footer .container  {
+    margin-bottom: 10rem;
+}
+/*footer continer contunu end */
+
+
+
+
+
+
+
