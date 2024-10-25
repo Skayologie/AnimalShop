@@ -610,7 +610,6 @@ color: rgba(67, 112, 117, 1);
 
 .PanierTicket .Details{
    border-radius: 10px;
-   /* background-color: aqua; */
    max-height: 480px;
    overflow: scroll;
    gap: 10px;
@@ -621,7 +620,6 @@ color: rgba(67, 112, 117, 1);
 }
 
 .PanierTicket .Operation{
-   /* background-color: rgb(0, 81, 255); */
    display: flex;
    align-items: center;
    gap: 15px;
