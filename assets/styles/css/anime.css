@@ -34,7 +34,8 @@
   height: 90px;
   overflow: hidden;
   background-color: var(--bodyColor);
-
+  position: fixed;
+  width:-webkit-fill-available ;
 }
 
 .navbar img {
@@ -208,7 +209,7 @@ input {
     position: fixed;
     justify-content: start;
     top: 90px;        
-    width: 100%;
+    width: 60%;
     height: calc(100vh - 55px);
     transform: translate(-110%);
     text-align: center;

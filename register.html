@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/styles/css/index.css">
-    <link rel="stylesheet" href="./assets/styles/css/styleofGet-in-Touch.css">
     <script src="./assets/scripts/jquery.min.js"></script>
     <script src="./assets/scripts/parsley.min.js"></script>
     <link
@@ -65,8 +64,8 @@
                     <!-- Work Place Of The Main Part-->
                 <h4 class="PageTitle">Register</h4>
 
-                <form action="">
-                    <div class="form-container">
+                <form  class="demo-form" data-parsley-validate action="">
+                    <div  class="form-container form-section">
                        
                         <label for="first">First Name</label>
                         <input type="text" name="first" id="first" placeholder="First Name">
@@ -131,10 +130,11 @@
 
 <!--footer end -->
 <script src="./assets/scripts/animation.js"></script>
+
+
+<script>
+    $('#form').parsley();
+  </script>
+
 </body>
-
-
-
-</body>
-
 </html>
