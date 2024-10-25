@@ -564,6 +564,7 @@ color: rgba(67, 112, 117, 1);
    background-color: var(--primaryColor);
    background:linear-gradient(to left bottom , #6DAEB5 , #477E84);
    border-radius: 14px;
+   width: 90%;
 }
 
 
