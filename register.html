@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/css/index.css">
+    <script src="./assets/scripts/jquery.min.js"></script>
+    <script src="./assets/scripts/parsley.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>Animal Shop</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    </style>
+</head>
+
+<body>
+    
+  <!-- Header start -->
+    <header>
+        <div class="container">
+            <div class="headerContent">
+                <!-- Work Place Of The Header Bar-->
+                <div class="page-wrapper">
+                    <div class="nav-wrapper">
+                      <nav class="navbar">
+                        <div class="iconsHeader">
+                            <img src="./assets/icons/HeaderIcons/menu.svg" alt="Company Logo"  class="menu-toggle" id="mobile-menu" />
+                            <img src="./assets/images/logo.svg" alt="Logo" />
+                            <ul class="nav no-search">
+                               <div class="Conaa">
+                                    <li class="nav-item"><a href="#">Chiens</a></li>
+                                    <li class="nav-item"><a href="#">Chats</a></li>
+                                    <li class="nav-item"><a href="#">Aquariophilie</a></li>
+                                    <li class="nav-item"><a href="#">Reptiles</a></li>
+                                    <li class="nav-item"><a href="#">Nos Services</a></li>
+                                    <li class="nav-item"><a class="PrimaryBtn" href="./login.html"><input class="cursorPointeur"  type="button" value="Login"></a></li>
+                                    <li class="nav-item"><a class="SecondBtn" href="./register.html"><input class="cursorPointeur" type="button" value="Register"></a>></li>
+                               </div>
+                              
+                            </ul>
+                            <div class="rightIcons">
+                                <img src="./assets/icons/HeaderIcons/search.svg" alt="">
+                                <div class="cart">
+                                    <a href="./Panier.html">
+                                        <img src="./assets/icons/HeaderIcons/cart.svg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                      </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+  <!-- Main start -->
+    <main>
+        <div class="container">
+            <div class="mainContent">
+                    <!-- Work Place Of The Main Part-->
+                <h4 class="PageTitle">Register</h4>
+
+                <form  class="demo-form" data-parsley-validate action="">
+                    <div  class="form-container form-section">
+                       
+                        <label for="first">First Name</label>
+                        <input type="text" name="first" id="first" placeholder="First Name">
+
+                        <label for="last">Last Name</label>
+                        <input type="text" name="last" id="last" placeholder="Last Name">
+
+                        <label for="Email">Email</label>
+                        <input type="email" name="Email" id="Email" placeholder="Email">
+
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password" placeholder="password">
+
+                        <a class="PrimaryBtn" href="./register.html"><input type="button" value="Register"></a>
+                        <a class="SecondBtn" href="./login.html"><input type="button" value="Login"></a>
+
+                    </div>
+                </form>
+                    
+
+            </div>
+        </div>
+    </main>
+  <!-- footer start -->
+    <footer>
+        <div class="container">
+            
+            <div class="footer-top">
+                <h3>Inscrivez-vous à notre newsletter et recevez toutes  nos offres. </h3>
+                <input type="email" placeholder="Exemple@gmail.com">
+                <button>Submit</button>
+            </div>
+            <div class="footer-center">
+                <div class="footer-left">
+                    <div class="contact-us">
+                        <h4>Contact</h4>
+                        <p>contact@animalshop.ma</p>
+                        <p class="tele">05 37 73 67 82</p>
+                    </div>
+                    
+                    <div class="media">
+                        <h4>Suivez nous</h5>
+                        <i class="fa-brands fa-youtube"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                    </div>
+
+                </div>
+                <div class="footer-right">
+                    <h4>Adress</h4>
+                    <p>36, Rue Idriss Al AkbarAvenue Al Alaouiyine, Hassan, Rabat</p></p>
+                </div>
+            </div>
+            <div class="footer-final">
+                <div classe="content-footer-fin">
+                    <div><p>© 2020, Animal Shop SARL</p></div>
+                    <div><img src="./assets/images/footerTagsCMIVISA.svg" alt="#"></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<!--footer end -->
+<script src="./assets/scripts/animation.js"></script>
+
+
+<script>
+    $('#form').parsley();
+  </script>
+
+</body>
+</html>

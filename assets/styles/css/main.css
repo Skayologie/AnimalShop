@@ -9,7 +9,6 @@
 }
 /* Please !! Do Not Touch This Css File */
 *{
-    
     margin: 0px;
     padding: 0px;
     font-family: "poppinsRegular";
@@ -49,11 +48,31 @@ body{
     color: var(--DefaultFontsColor);
     background-color: var(--bodyColor);
 }
+.cursorPointeur{
+    cursor: pointer;
+}
+main{
+    margin-top: 100px;
+}
+button{
+    border: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
 header , main , footer{
     display: flex;
     justify-content: center;
 }
 .container{
-    width: 95%;
+    width: 100%;
     max-width: 1500px;
 }
+
+
+/* *********************************** */
+footer .container{
+    max-width: 1300px;
+}
+

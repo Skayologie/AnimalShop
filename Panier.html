@@ -1,4 +1,4 @@
-§<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -22,7 +22,6 @@
                 <!-- Work Place Of The Header Bar-->
                 <div class="page-wrapper">
                     <div class="nav-wrapper">
-                      <div class="grad-bar"></div>
                       <nav class="navbar">
                         <div class="iconsHeader">
                             <img src="./assets/icons/HeaderIcons/menu.svg" alt="Company Logo"  class="menu-toggle" id="mobile-menu" />
@@ -34,6 +33,8 @@
                                     <li class="nav-item"><a href="#">Aquariophilie</a></li>
                                     <li class="nav-item"><a href="#">Reptiles</a></li>
                                     <li class="nav-item"><a href="#">Nos Services</a></li>
+                                    <li class="nav-item"><a class="PrimaryBtn" href="./login.html"><input class="cursorPointeur"  type="button" value="Login"></a></li>
+                                    <li class="nav-item"><a class="SecondBtn" href="./register.html"><input class="cursorPointeur" type="button" value="Register"></a>></li>
                                </div>
                               
                             </ul>
@@ -41,7 +42,6 @@
                                 <img src="./assets/icons/HeaderIcons/search.svg" alt="">
                                 <div class="cart">
                                     <img src="./assets/icons/HeaderIcons/cart.svg" alt="">
-
                                 </div>
                             </div>
                         </div>
@@ -55,7 +55,7 @@
         <div class="container">
             <div class="mainContent">
                 <!-- Work Place Of The Main Part-->
-                <h4>Mon Panier</h4>
+                <h4 class="PageTitle">Mon Panier</h4>
                 <div class="PanierTicket">
                     <div class="TicketContent">
                         <div class="Details">
@@ -157,48 +157,58 @@
                         </div>
                     </div>
                     <div class="Buttons">
-                        <input type="submit" value="Annuler">
-                        <input type="submit" value="Continuer">
+                        <a class="AnnulerPanier" href="./index.html">
+                            <input type="submit" value="Annuler">
+                        </a>
+                        <a class="ContinuerPanier" href="./login.html">
+                            <input type="submit" value="Continuer">
+
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </main>
-    <!-- footer start -->
-    <footer>
-        <div class="container">
-            <div class="footer-top">
-                <h3>Inscrivez-vous à notre newsletter et recevez toutes  nos offres. </h3>
-                <input type="email" placeholder="Exemple@gmail.com">
-                <button>Submit</button>
-            </div>
-            <div class="footer-center">
-                <div class="footer-left">
-                    <h4>Contact</h4>
-                    <p>contact@animalshop.ma</p>
-                    <p class="tele">05 37 73 67 82</p>
-                    <h5>Suivez nous</h5>
-                    <div class="media">
-                        <img src="./assets/icons/social media/facebook.svg" alt="#">
-                        <img class="inta" src="./assets/icons/social media/instagram.svg" alt="#">
-                        <img src="./assets/icons/social media/youtube.svg" alt="#">
+        <!-- footer start -->
+        <footer>
+            <div class="container">
+                
+                <div class="footer-top">
+                    <h3>Inscrivez-vous à notre newsletter et recevez toutes  nos offres. </h3>
+                    <input type="email" placeholder="Exemple@gmail.com">
+                    <button>Submit</button>
+                </div>
+                <div class="footer-center">
+                    <div class="footer-left">
+                        <div class="contact-us">
+                            <h4>Contact</h4>
+                            <p>contact@animalshop.ma</p>
+                            <p class="tele">05 37 73 67 82</p>
+                        </div>
+                        
+                        <div class="media">
+                            <h4>Suivez nous</h5>
+                            <i class="fa-brands fa-youtube"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-facebook"></i>
+                        </div>
+    
+                    </div>
+                    <div class="footer-right">
+                        <h4>Adress</h4>
+                        <p>36, Rue Idriss Al AkbarAvenue Al Alaouiyine, Hassan, Rabat</p></p>
                     </div>
                 </div>
-                <div class="footer-right">
-                    <h4>Adress</h4>
-                    <p>36, Rue Idriss Al Akbar Avenue Al Alaouiyine, Hassan, Rabat</p></p>
+                <div class="footer-final">
+                    <div classe="content-footer-fin">
+                         <div><p>© 2020, Animal Shop SARL</p></div>
+                         <div><img src="./assets/images/footerTagsCMIVISA.svg" alt="#"></div>
+                    </div>
                 </div>
             </div>
-            <div class="footer-final">
-                <div classe="content-footer-fin">
-                     <div><p>© 2020, Animal Shop SARL</p></div>
-                     <div><img src="./assets/images/footerTagsCMIVISA.svg" alt="#"></div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    
-    <!--footer end -->
+        </footer>
+        
+        <!--footer end -->
     <script src="./assets/scripts/animation.js"></script>
 </body>
 </html>
