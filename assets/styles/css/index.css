@@ -35,6 +35,7 @@ header{
    .navbar{
       display: flex;
       justify-content: center;
+      max-width: 1500px;
    }
    .navbar li {
       /* padding: 15px; */
