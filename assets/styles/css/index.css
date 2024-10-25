@@ -832,14 +832,33 @@ form input,textarea,.footerContainer input{
    color: white;
    border: none;
    resize: vertical;
-
 }
-form input:not([type="button"]),textarea,.footerContainer input{
+form input:not([type="submit"]){
    padding-left: 20px;   
    background-color: #CECECE;
    color: black;
 }
-
+form input[type="button"],.footerContainer input{
+   padding-left: 20px;   
+   background-color: #ffffff;
+   color: var(--primaryColor);
+   border: 1px solid var(--primaryColor);
+}
+form textarea{
+   background-color:#CECECE;
+   padding-left: 20px;
+   color: black;
+   
+}
+form textarea::placeholder{
+   font-weight: 600;
+   color: #0000004c;
+}
+form ul{
+   list-style: none;
+   margin: -15px 0px 10px 10px;
+   color: red;
+}
 form label{
    font-size: 1.5rem;
 }

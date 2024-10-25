@@ -37,7 +37,8 @@
                                 <li class="nav-item"><a href="#chiens">Chiens</a></li>
                                 <li class="nav-item"><a href="#chats">Chats</a></li>
                                 <li class="nav-item"><a href="#Oiseaux">Oiseaux</a></li>
-                                <li class="nav-item"><a href="#">Nos Services</a></li>
+                                <li class="nav-item"><a href="./CONTACT.html">Contact Us</a></li>
+
                                     <div class="ButtonHeader">
                                         <li class="nav-item"><a class="PrimaryBtn" href="./login.html"><input class="cursorPointeur"  type="button" value="Login"></a></li>
                                         <li class="nav-item"><a class="SecondBtn" href="./register.html"><input class="cursorPointeur" type="button" value="Register"></a></li>
@@ -71,18 +72,18 @@
                     <div  class="form-container form-section">
                        
                         <label for="first">First Name</label>
-                        <input type="text" name="first" id="first" placeholder="First Name">
+                        <input type="text" name="first" id="first" required="" placeholder="First Name">
 
                         <label for="last">Last Name</label>
-                        <input type="text" name="last" id="last" placeholder="Last Name">
+                        <input type="text" name="last" id="last" required="" placeholder="Last Name">
 
                         <label for="Email">Email</label>
-                        <input type="email" name="Email" id="Email" placeholder="Email">
+                        <input type="email" name="Email" id="Email" data-parsley-trigger="change" required=""    placeholder="Email">
 
                         <label for="password">Password</label>
-                        <input type="password" name="password" id="password" placeholder="password">
+                        <input type="password" name="password" id="password" data-parsley-trigger="keyup" data-parsley-minlength="8" data-parsley-minlength-message="The Minimum Password 8 Charachters" required="" placeholder="password">
 
-                        <a class="PrimaryBtn" href="./register.html"><input type="button" value="Register"></a>
+                        <input type="submit" value="Register">
                         <a class="SecondBtn" href="./login.html"><input type="button" value="Login"></a>
 
                     </div>
