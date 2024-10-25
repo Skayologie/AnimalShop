@@ -473,6 +473,16 @@ color: rgba(67, 112, 117, 1);
     left: 0.8rem;
 }
 
+.nav-item{
+   padding-block: 20px;
+}
+
+.nav-item:hover{
+   border-bottom: 1px solid var(--primaryColor);
+}
+.activePage{
+   border-bottom: 1px solid var(--primaryColor);
+}
 
 .AllCards{
    display: flex;
