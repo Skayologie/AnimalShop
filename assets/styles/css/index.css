@@ -690,8 +690,8 @@ color: rgba(67, 112, 117, 1);
 } 
 
 .FilterCategory{
-   background-color: red;
-   height: 500px;
+   background-color:#ffff;
+   height: 700px;
    width: 50%;
    margin-top: 50px;
    border-radius: 20px;
@@ -713,9 +713,42 @@ font-size: 15px;
 }
  
 .categories-titre{
-   font-size: 10px;
-   padding-left: 1rem;
+   font-size: 3px;
+   padding-top: 1.5rem;
+   padding-bottom: 1.5rem;
+   font-weight: 25px;
+   
 }
+
+
+.categories-list {
+   padding-bottom:1rem ;
+   font-size: 1.5rem;
+
+}
+.choix{
+   padding-bottom: 1rem;
+}
+.prix-info{
+   padding-bottom: 1rem;
+
+}
+.prix-info h5{
+padding-bottom: 0.5rem;
+}
+.range-input input[type="range"] {
+   -webkit-appearance: none;
+   width: 100%;
+   height: 10px;
+   background: #000; 
+   border-radius: 5px;
+   outline: none; 
+   
+   transition: opacity .2s; 
+}
+
+
+
 @media only screen and (max-width:1050px) {
    .FilterCategory{
       display: none;
