@@ -64,24 +64,22 @@
                     <!-- Work Place Of The Main Part-->
                 <h4 class="PageTitle">Register</h4>
 
-                <form  class="demo-form" data-parsley-validate action="">
+                <form  class="demo-form" data-parsley-validate="" action="./index.html">
                     <div  class="form-container form-section">
-                       
                         <label for="first">First Name</label>
-                        <input type="text" name="first" id="first" placeholder="First Name">
+                        <input type="text" name="first" id="first" required="" placeholder="First Name">
 
                         <label for="last">Last Name</label>
-                        <input type="text" name="last" id="last" placeholder="Last Name">
+                        <input type="text" name="last" id="last" required="" placeholder="Last Name">
 
                         <label for="Email">Email</label>
-                        <input type="email" name="Email" id="Email" placeholder="Email">
+                        <input type="email" name="Email" id="Email" required="" data-parsley-trigger="" placeholder="Email">
 
                         <label for="password">Password</label>
-                        <input type="password" name="password" id="password" placeholder="password">
+                        <input type="password" data-parsley-minlength-message="Enter The Minimum 8 Characters" data-parsley-minlength="8" name="password" id="password" required=""  placeholder="password">
 
-                        <a class="PrimaryBtn" href="./register.html"><input type="button" value="Register"></a>
+                        <input class="PrimaryBtn"  type="submit" value="Register">
                         <a class="SecondBtn" href="./login.html"><input type="button" value="Login"></a>
-
                     </div>
                 </form>
                     
@@ -133,8 +131,17 @@
 
 
 <script>
-    $('#form').parsley();
-  </script>
+const url = new URL(window.location.href);
+
+// Create a URLSearchParams object
+const params = new URLSearchParams(url.search);
+
+// Access query parameters
+const name = params.get('first'); // "Jawad"
+const age = params.get('last');   // "21"
+
+console.log(name, age);
+</script>
 
 </body>
 </html>

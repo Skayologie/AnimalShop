@@ -781,7 +781,7 @@ form input,textarea,.footerContainer input{
    resize: vertical;
 
 }
-form input:not([type="button"]),textarea,.footerContainer input{
+form input:not([type="submit"]),textarea,.footerContainer input{
    padding-left: 20px;   
    background-color: #CECECE;
    color: black;
@@ -804,16 +804,15 @@ form label{
 .oublieMot{
    margin-bottom: 0%;
 }
-.PrimaryBtn{
-}
+
 .PrimaryBtn input{
    margin-bottom: 20px;
    text-decoration: none;
    width: 100%;
-   background-color: var(--primaryColor);
+   background-color: red;
 }
 
-.SecondBtn input{
+.SecondBtn input[type="button"]{
    background-color: var(--white);
    color: var(--primaryColor);
    width: 100%;
@@ -823,9 +822,6 @@ form label{
    margin: 0px 0 20px 0;
 }
 
-.footerContainer{
-   
-}
 .footerContainer input{
    width: 100% !important;
 
@@ -1169,3 +1165,19 @@ form label{
   }
 
 }
+
+
+.parsley-minlength{
+}
+
+
+ul{
+   color: red;
+   margin: -15px 0px 20px 10px;
+   list-style: none;
+}
+
+
+
+
+
