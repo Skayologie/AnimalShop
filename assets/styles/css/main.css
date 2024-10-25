@@ -5,13 +5,29 @@
     --lighterColor :#6DAEB5;
     --DefaultFontsColor:#000000;
     --white:#ffffff;
+    --WhiteCase :#D9D9D9;
 }
 /* Please !! Do Not Touch This Css File */
 *{
     margin: 0px;
     padding: 0px;
+    font-family: "poppinsRegular";
     box-sizing: border-box;
+    outline: none;
 }
+
+/* width */
+::-webkit-scrollbar {
+    width:20px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--primaryColor);
+    border: 7px solid transparent;
+    border-radius: 10px;
+    background-clip: content-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @font-face {
     font-family: poppinsRegular;
     src: url(../fonts/poppins/Poppins-Regular.ttf);
@@ -30,12 +46,33 @@ html{
 }
 body{
     color: var(--DefaultFontsColor);
+    background-color: var(--bodyColor);
+}
+.cursorPointeur{
+    cursor: pointer;
+}
+main{
+    margin-top: 100px;
+}
+button{
+    border: none;
+}
+a{
+    text-decoration: none;
+    color: black;
 }
 header , main , footer{
     display: flex;
     justify-content: center;
 }
 .container{
-    width: 95%;
+    width: 100%;
     max-width: 1500px;
 }
+
+
+/* *********************************** */
+footer .container{
+    max-width: 1300px;
+}
+

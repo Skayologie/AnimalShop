@@ -5,12 +5,10 @@
  /*               JUST FOR ORGNIZE THE CODE AND FOCUS                    */
 /************************************************************************/
 
+
 /* For Tablette and Petit Ecran */
-@media only screen and (min-width: 768px) {
-    .container{
-        width: 80%;
-    }
-}
+
+
 
 
 
@@ -32,8 +30,104 @@
 /* For Large Screen */
 @media only screen and (min-width: 1279px ) {
     .container{
-        width: 80%;
-        background-color: rgb(43, 255, 0);
+        width: 90%;
+        /* background-color: rgb(43, 255, 0); */
     }
     
+}
+
+/* Abdelouafi Media Desktop Start */
+@media only screen and (min-width: 768px ) {
+.dogs .continer .content .nav-bar .menu p {
+    font-size: 2rem !important;
+    position: relative ;
+    top:0.001rem !important;
+}
+.dogs .continer .content .nav-bar .menu button {
+    display: flex;
+    margin-left: 2rem ;
+    
+}
+.dogs .continer .content .nav-bar .menu button img {
+    width: 2.5rem !important;
+}
+.dogs .continer .content .nav-bar .paragraph-l p {
+    font-size: 1.5rem !important;
+    font-weight: 1000;
+}
+.dogs .continer .content .cart-dogs div {
+    width: 100% !important;
+}
+/* .container .footer-top input {
+    height: 4rem !important;
+ } */
+    .container .footer-top button {
+       padding-left:8rem!important;
+       padding-right:8rem!important;
+
+ }
+ .footer-center .footer-left h4 {
+    font-size : 2rem !important;
+}
+.footer-center .footer-left p {
+    font-size: 1.2rem !important ;
+ }
+ .footer-center .footer-left h5 {
+    font-size: 1.5rem !important;
+    
+ }
+ .footer-right h4 {
+    font-size : 2rem !important;
+ }
+.footer-right p{
+    font-size: 1.2rem !important ;
+}
+
+}
+@media only screen and (min-width: 1050px ) {
+    .dogs .continer .content .cart-dogs {
+        grid-template-columns: auto auto auto !important;
+        grid-template-rows: repeat(auto,3) !important;
+    }
+    .dogs .continer .content .cart-dogs .dogs-cart-a {
+        grid-row: 1/4 !important;
+    }
+    .container .footer-top h3 {
+        width: 100% !important;
+    }
+    .container .footer-top button {
+       padding-left: 5rem !important;
+       padding-right: 5rem !important;
+        border: none;
+   }
+ /* .container .footer-top input {
+    width: 60% !important;
+  } */
+    .footer-center {
+        display: flex !important;
+        justify-content: space-between;
+    }
+    .footer-center .footer-left {
+        display: flex;
+    }
+    .footer-center .footer-left .contact-us {
+        margin-right: 26rem;
+    }
+}
+/* Abdelouafi Media Desktop end */
+/* **************************** */
+
+@media only screen and (max-width: 1423px ) {
+    footer .container {
+        width: 90%;
+    }
+
+}
+@media only screen and (max-width: 1050px ) {
+    .footer-top{
+        max-width: 100% !important;
+    }
+    .form-container{
+        width: 90% !important;
+    }
 }

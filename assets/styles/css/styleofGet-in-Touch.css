@@ -1,0 +1,67 @@
+/* ############## CSS style for the Contact & Sign-in & Log-in Pages ####################### */
+
+/* General Body Styles */
+body {
+    background-color: #F1F1F1;
+}
+
+/* Container Styles */
+
+
+/* Title Styles */
+.container .title h1 {
+    font-family: 'Inter', sans-serif;
+    color: #1E1E1E;
+    font-weight: 800; 
+    letter-spacing: -0.03em;
+    background: linear-gradient(90deg, #1E1E1E, #3AF59B, #04F25C);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent; 
+}
+
+
+/* Form Container Styles */
+.form-container fieldset {
+    border: none;
+    margin-top: 20px;
+}
+
+.form-container p {
+    margin-bottom: 15px;
+}
+
+/* Input Field Styles */
+input[type="text"], 
+input[type="password"], 
+input[type="tel"] { /* Includes password and telephone fields */
+    border: none;
+}
+
+/* Placeholder Styles */
+input::placeholder {
+    font-weight: bold; 
+    color: rgba(30, 30, 30, 0.29); 
+}
+
+/* Button Styles */
+button[type="submit"] { /* Standard Submit Button */
+    background-color: #437075;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 30.8rem; 
+    margin: 0 auto;
+    display: block; 
+}
+
+/* Button Hover Styles */
+button[type="submit"]:hover {
+    background-color: #2d3452;
+}
+
+/* Additional Styles */
+#Message {
+    height: 150px; 
+}
