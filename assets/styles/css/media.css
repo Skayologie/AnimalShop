@@ -58,9 +58,9 @@
 .dogs .continer .content .cart-dogs div {
     width: 100% !important;
 }
-.container .footer-top input {
+/* .container .footer-top input {
     height: 4rem !important;
- }
+ } */
     .container .footer-top button {
        padding-left:8rem!important;
        padding-right:8rem!important;
@@ -98,11 +98,11 @@
     .container .footer-top button {
        padding-left: 5rem !important;
        padding-right: 5rem !important;
-        margin-bottom: 10rem !important;
+        border: none;
    }
- .container .footer-top input {
+ /* .container .footer-top input {
     width: 60% !important;
-  }
+  } */
     .footer-center {
         display: flex !important;
         justify-content: space-between;
@@ -115,3 +115,19 @@
     }
 }
 /* Abdelouafi Media Desktop end */
+/* **************************** */
+
+@media only screen and (max-width: 1423px ) {
+    footer .container {
+        width: 90%;
+    }
+
+}
+@media only screen and (max-width: 1050px ) {
+    .footer-top{
+        max-width: 100% !important;
+    }
+    .form-container{
+        width: 90% !important;
+    }
+}
