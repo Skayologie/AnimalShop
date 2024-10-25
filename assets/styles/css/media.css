@@ -130,4 +130,11 @@
     .form-container{
         width: 90% !important;
     }
+
+}
+@media only screen and (min-width: 1050px ) {
+    .ButtonHeader{
+        display: none !important;
+        background-color: red;
+     }
 }

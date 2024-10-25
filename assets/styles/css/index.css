@@ -27,6 +27,7 @@ header{
    position: relative;
 }
 
+
 @media only screen and (min-width: 768px) {
    .container{
        width: 100%;
@@ -44,6 +45,7 @@ header{
    }
    .navbar li {
       padding-left: 0px;
+      
     }
    .nav{
       display: flex;
@@ -58,9 +60,8 @@ header{
    
   .navbar li a {
    font-size: 1.8rem;
-   padding-left: 0px;
+  }
 
- }
 }
 @media only screen and (min-width:1050px) {
    .Conaa {
@@ -77,6 +78,7 @@ header{
   }
   .Conaa li a{
       font-size: 1.4rem;
+    
   }
   .nav{
    height: 100%;
@@ -281,9 +283,7 @@ width: 15rem;
    z-index: 0; /* Send video behind content */
 }
 
-.home-page-top-container{
-  
-}
+
 /* FIN HOME PAGE TOP*/
 
 .dogs .continer .content .image-pransipal {
@@ -598,8 +598,6 @@ color: rgba(67, 112, 117, 1);
    align-items: center;
    gap:5px;
 }
-/* .PanierTicket .Price p{
-} */
 .PanierTicket .Price p:nth-child(1){
    font-size: large;
    color: green;
@@ -613,7 +611,6 @@ color: rgba(67, 112, 117, 1);
 
 .PanierTicket .Details{
    border-radius: 10px;
-   /* background-color: aqua; */
    max-height: 480px;
    overflow: scroll;
    gap: 10px;
@@ -624,7 +621,6 @@ color: rgba(67, 112, 117, 1);
 }
 
 .PanierTicket .Operation{
-   /* background-color: rgb(0, 81, 255); */
    display: flex;
    align-items: center;
    gap: 15px;
@@ -711,16 +707,72 @@ color: rgba(67, 112, 117, 1);
    transition: .5s;
 }
 
-
+.FilterAndProduct{
+   /* background-color: #437075; */
+   display: flex;
+   gap:20px;
+} 
 
 .FilterCategory{
-   background-color: red;
-   height: 500px;
+   background-color:#ffff;
+   height: 700px;
    width: 50%;
    margin-top: 50px;
    border-radius: 20px;
    max-width: 350px;
 }
+.FilterBy{
+padding: 10px 50px 10px 25px;
+font-size: 15px;
+
+}
+
+.choix{
+   list-style-type: none;
+
+}
+.choix i {
+   padding-right: 8px;
+   font-size: 10px;
+}
+ 
+.categories-titre{
+   font-size: 3px;
+   padding-top: 1.5rem;
+   padding-bottom: 1.5rem;
+   font-weight: 25px;
+   
+}
+
+
+.categories-list {
+   padding-bottom:1rem ;
+   font-size: 1.5rem;
+
+}
+.choix{
+   padding-bottom: 1rem;
+}
+.prix-info{
+   padding-bottom: 1rem;
+
+}
+.prix-info h5{
+padding-bottom: 0.5rem;
+}
+.range-input input[type="range"] {
+   -webkit-appearance: none;
+   width: 100%;
+   height: 10px;
+   background: #000; 
+   border-radius: 5px;
+   outline: none; 
+   
+   transition: opacity .2s; 
+}
+
+
+
 .FilterAndProduct{
    /* background-color: #437075; */
    display: flex;
@@ -732,6 +784,7 @@ color: rgba(67, 112, 117, 1);
       display: none;
      }
 }
+/* */
 /*footer continer contunu*/
 footer .container h2 {
     font-size: 2rem;
@@ -779,14 +832,33 @@ form input,textarea,.footerContainer input{
    color: white;
    border: none;
    resize: vertical;
-
 }
-form input:not([type="submit"]),textarea,.footerContainer input{
+form input:not([type="submit"]){
    padding-left: 20px;   
    background-color: #CECECE;
    color: black;
 }
-
+form input[type="button"],.footerContainer input{
+   padding-left: 20px;   
+   background-color: #ffffff;
+   color: var(--primaryColor);
+   border: 1px solid var(--primaryColor);
+}
+form textarea{
+   background-color:#CECECE;
+   padding-left: 20px;
+   color: black;
+   
+}
+form textarea::placeholder{
+   font-weight: 600;
+   color: #0000004c;
+}
+form ul{
+   list-style: none;
+   margin: -15px 0px 10px 10px;
+   color: red;
+}
 form label{
    font-size: 1.5rem;
 }
@@ -809,7 +881,9 @@ form label{
    margin-bottom: 20px;
    text-decoration: none;
    width: 100%;
-   background-color: red;
+   color: white;
+   background-color: var(--primaryColor);
+   border-radius: 0.5rem;
 }
 
 .SecondBtn input[type="button"]{
@@ -817,6 +891,7 @@ form label{
    color: var(--primaryColor);
    width: 100%;
    border: 1px solid var(--primaryColor);
+   border-radius: 0.5rem;
 }
 .oublie{
    margin: 0px 0 20px 0;
@@ -1163,21 +1238,26 @@ form label{
    .Operation {
       justify-content: space-between;
   }
+  .Conaa li .PrimaryBtn, .Conaa li .SecondBtn{
+   width: 25rem;
+  }
+  .Conaa li .PrimaryBtn {
+   /* margin-top: 8rem; */
 
+  }
 }
-
-
-.parsley-minlength{
+.Conaa{
+   display: flex;
+   justify-content: space-between;
+   gap: 40px;
 }
-
-
-ul{
-   color: red;
-   margin: -15px 0px 20px 10px;
-   list-style: none;
+.ButtonHeader{
+   display: flex;
+   flex-direction: column;
+   width: 100% !important;
 }
-
-
-
-
+.ButtonHeader input{
+   padding-block: 12px;
+   font-size: 1.5rem;
+}
 
