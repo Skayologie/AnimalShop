@@ -1177,7 +1177,13 @@ form label{
    width: 25rem;
   }
   .Conaa li .PrimaryBtn {
-   margin-top: 8rem;
+   /* margin-top: 8rem; */
 
   }
 }
+.Conaa{
+   display: flex;
+   justify-content: space-between;
+   height: 80vh;
+}
+
